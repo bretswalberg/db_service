@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 /*-------------------------
   API ENDPOINTS
 -------------------------*/
-app.get('/get_something', function(req, res, next) {
+app.get('/test', function(req, res, next) {
     res.send('API call successful');
 
     /*
